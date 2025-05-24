@@ -1,9 +1,6 @@
-var width = device.width;  
-var height = device.height; 
-
 main()
 function main(){
-    killAPP("学习强国")
+    killAPP("Autox.js v6")
     home();
     exit();
     
@@ -29,22 +26,3 @@ function killAPP(name){
         }
     }
 }
-//lockScreen();锁屏
-/*
-sleep(2000);
-//home();
-log("qqqq")
-Power();
-sleep(2000)
-swipe(520,2000,520,1200,201)
-sleep(1000)
-desc(2).findOne(100).click();
-sleep(500);
-desc(5).findOne(100).click();
-sleep(500);
-desc(8).findOne(100).click();
-sleep(500);
-desc(0).findOne(100).click();
-log("解锁");
-*/
-var aa=
