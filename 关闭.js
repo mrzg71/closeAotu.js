@@ -1,5 +1,7 @@
 main()
 function main(){
+    launchApp("Autox.js v6")
+    sleep(1000)
     killAPP("Autox.js v6")
     home();
     exit();
@@ -15,8 +17,7 @@ function killAPP(name){
             sleep(500);
             while(true){
                 if(textContains("确定").exists()){
-                    !click("确定");
-     
+                    !click("确定");     
                     sleep(1000);
                     break;
                 }
