@@ -3,6 +3,8 @@ function main(){
     if (!device.isScreenOn()) {
         log("设备黑，准备亮屏");
         device.wakeUp();
+    }else{
+        log("已经是亮屏状态")
     }
     launchApp("Autox.js v6")
     sleep(1000)
