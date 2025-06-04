@@ -13,6 +13,21 @@ function main(){
     exit();
     
 }
+function unLock() {
+    if (textContains("月").exists()) {
+        sleep(1000)
+        if (textContains("闹钟").exists()) {
+            sleep(500)
+            swipe(520, 2000, 520, 1200, 300);
+            log("滑动关闭闹钟");
+        }
+        sleep(2000);        
+        swipe(520, device.height, 520, 1200,          300);//这是滑出解锁界面     
+    } else {
+        log("没锁")
+        sleep(1500)
+    }
+}
 function killAPP(name){
     var packageName=app.getPackageName(name)
     app.openAppSetting(packageName)
