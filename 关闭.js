@@ -5,6 +5,7 @@ function main(){
         device.wakeUp();
     }else{
         log("已经是亮屏状态")
+        sleep(500)
     }
     launchApp("Autox.js v6")
     sleep(1000)
