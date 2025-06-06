@@ -3,6 +3,7 @@ function main(){
     if (!device.isScreenOn()) {
         log("设备黑，准备亮屏");
         device.wakeUp();
+        sleep(500)//休眠半秒
     }else{
         log("已经是亮屏状态")
         sleep(500)
