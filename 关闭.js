@@ -18,7 +18,7 @@ function main(){
 }
 function unLock() {
     if (textContains("月").exists()) {
-        sleep(1000)
+        sleep(500)
         if (textContains("闹钟").exists()) {
             sleep(500)
             swipe(520, 2000, 520, 1200, 300);
