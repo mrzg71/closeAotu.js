@@ -25,7 +25,7 @@ function unLock() {
             log("滑动关闭闹钟");
         }
         sleep(2000);        
-        swipe(520, device.height, 520, 1200,          300);//这是滑出解锁界面     
+        swipe(520, device.height, 520, 1200,          300);
     } else {
         log("没锁")
         sleep(1500)
