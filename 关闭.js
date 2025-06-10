@@ -3,7 +3,7 @@ function main(){
     if (!device.isScreenOn()) {
         log("设备黑，准备亮屏");
         device.wakeUp();
-        sleep(500)//休眠半秒
+        sleep(500)
     }else{
         log("已经是亮屏状态")
         sleep(500)
@@ -25,7 +25,7 @@ function unLock() {
             log("滑动关闭闹钟");
         }
         sleep(2000);        
-        swipe(520, device.height, 520, 1200,          300);
+        swipe(520, device.height, 520, 1200,300);
     } else {
         log("没锁")
         sleep(1500)
