@@ -1,7 +1,7 @@
 main()
 function main(){
     if (!device.isScreenOn()) {
-        log("设备黑，准备亮屏");
+        log("设备黑，准备亮屏")
         device.wakeUp()
         sleep(500)
     }else{
