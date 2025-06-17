@@ -12,7 +12,7 @@ function main(){
     launchApp("Autox.js v6")
     sleep(1000)
     killAPP("Autox.js v6")
-    home();
+    home()
     exit();
     
 }
