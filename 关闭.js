@@ -13,7 +13,7 @@ function main(){
     sleep(1000)
     killAPP("Autox.js v6")
     home()
-    exit()
+    exit();
     
 }
 function unLock() {
