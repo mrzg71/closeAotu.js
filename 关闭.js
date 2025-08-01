@@ -24,7 +24,8 @@ function unLock() {
             swipe(520, 2000, 520, 1200, 300);
             log("滑动关闭闹钟")
         }
-        sleep(2000);        
+        sleep(2000);
+        log("暂停2秒")        
         swipe(520, device.height, 520, 1200,300);
     } else {
         log("没锁")
