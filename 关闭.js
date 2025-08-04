@@ -44,7 +44,7 @@ function killAPP(name){
             while(true){
                 if(textContains("确定").exists()){
                     !click("确定");     
-                    sleep(1000);
+                    sleep(500);
                     break;
                 }
                 break;
