@@ -8,7 +8,7 @@ function main(){
         log("已经是亮屏状态")
         sleep(500);
     }
-    unlock()
+    unlock();
     sleep(500)
     launchApp("Autox.js v6")
     sleep(1000)
