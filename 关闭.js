@@ -11,7 +11,7 @@ function main(){
     unlock();
     sleep(500);
     launchApp("Autox.js v6")
-    sleep(1000)
+    sleep(1000);
     killAPP("Autox.js v6")
     home()
     exit();
