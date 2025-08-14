@@ -21,7 +21,7 @@ function unLock() {
     if (textContains("月").exists()) {
         sleep(500);
         if (textContains("闹钟").exists()) {
-            sleep(500)
+            sleep(500);
             swipe(520, 2000, 520, 1200, 300);
             log("滑动关闭闹钟")
         }
