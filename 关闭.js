@@ -5,7 +5,7 @@ function main(){
         device.wakeUp();
         sleep(500);
     }else{
-        log("已经是亮屏状态")
+        log("已经是亮屏状态");
         sleep(500);
     }
     unlock();
@@ -53,3 +53,4 @@ function killAPP(name){
         }
     }
 }
+
