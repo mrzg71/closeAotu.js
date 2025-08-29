@@ -29,7 +29,7 @@ function unLock() {
         log("暂停2秒");        
         swipe(520, device.height, 520, 1200,300);
     } else {
-        log("没锁")
+        log("没锁");
         sleep(1500)
     }
 }
