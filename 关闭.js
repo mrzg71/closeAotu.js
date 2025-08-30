@@ -30,7 +30,7 @@ function unLock() {
         swipe(520, device.height, 520, 1200,300);
     } else {
         log("没锁");
-        sleep(1500)
+        sleep(1500);
     }
 }
 function killAPP(name){
