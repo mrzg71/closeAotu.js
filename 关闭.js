@@ -36,7 +36,7 @@ function unLock() {
 function killAPP(name){
     var packageName=app.getPackageName(name)
     app.openAppSetting(packageName)
-    sleep(500)
+    sleep(500)；
     while(true){
        if(text("结束运行"||"强行停止").exists()){
             click("结束运行"||"强行停止");
