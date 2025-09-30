@@ -1,4 +1,4 @@
-/////////main()
+//////////main()
 function main(){
     if (!device.isScreenOn()) {
         //log("设备黑准备亮屏");
